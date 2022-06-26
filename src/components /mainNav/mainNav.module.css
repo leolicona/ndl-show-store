@@ -1,0 +1,19 @@
+.nav {
+
+}
+
+.list {
+   
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    color: whitesmoke;
+} 
+
+.item {
+   
+
+}
+
+
+
