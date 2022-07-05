@@ -1,0 +1,11 @@
+.cardsContainer {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 8px;
+}
+
+.image{
+    width: 100%;
+}

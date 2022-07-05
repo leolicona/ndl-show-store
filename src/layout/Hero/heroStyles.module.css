@@ -1,9 +1,63 @@
-.hero {
+.heroSection {
     width: 100%;
+    min-height: 55vh;
+    position: relative;  
+ 
 }
 
-.heroImage {
+    .heroImage {
+        width: 100%;
+        height: 100%;
+        object-position: 50% 20%;
+        object-fit: cover;
+    }
+
+    .cover {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+.mainContainer {
     width: 100%;
-    object-fit: contain;
- 
+    min-height: 60%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    color: white;   
+}
+
+.wrapper > h1{
+   color: #F2A007;
+   font-size: 32px;
+   
+}
+
+.wrapper > p{
+    color: white;
+    line-height: 1.6;
+    font-size: 18px;  
+ }
+
+.wrapper > button{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #F2A007;
+    border-radius: 10px;
+    color: white;
 }

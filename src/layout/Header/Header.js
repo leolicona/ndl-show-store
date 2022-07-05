@@ -5,10 +5,12 @@ import MainNav from "../../components /mainNav/MainNav"
 const Header = () => {
     return(
         <header className={headerStyles.header}>
-            <div className={headerStyles.wrapper}>
-            <img className={headerStyles.logo} src={logo} alt=""/>
-            <MainNav
-            />
+            <div className={headerStyles.container}>
+                <div className={headerStyles.wrapper}>
+                    <img className={headerStyles.logo} src={logo} alt=""/>
+                    <MainNav
+                    />
+                </div>
             </div>
         </header>
     );

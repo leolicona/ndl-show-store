@@ -1,23 +1,23 @@
-import Header from './layout/Header';
-import Hero from './layout/Hero';
-import Footer from './layout/Footer';
-import {globalStyles} from'./styles/main'
-import {createUseStyles} from 'react-jss'
-
-console.log(globalStyles )
-const useStyles = createUseStyles(globalStyles)
+import Header from './layout/Header/Header';
+import Hero from './layout/Hero/Hero'
+import Footer from './layout/Footer/Footer';
+import appStyles from './App.module.css';
+import Main from './layout/Main/Main'
 
 
 function App() {
 
-  const  classes = useStyles();
 
   return (
-    <div className={classes.wrapperContainer}>
-      <Header className={classes.wrapperContent}/>
+    <div className={appStyles.mainContainer}>
+      <Header/>
       <Hero/>
+      <Main/>
+
+    
+      
+      
       <Footer/>
-      <p>Hello Noche de Leyendas</p>
     </div>
   );
 }
