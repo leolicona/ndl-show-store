@@ -1,5 +1,6 @@
-import mainStyles from "./mainStyles.module.css"
-import Dates from "../section/Dates/Dates"
+import mainStyles from "./mainStyles.module.css";
+import Product from "../section/slider/Product";
+import Card from "../../components /card/Card";
 
 
 const Main = () => {
@@ -7,7 +8,11 @@ const Main = () => {
        <main className={mainStyles.main}>
             <div className={mainStyles.mainContainer}>
                 <div className={mainStyles.wrapper}>
-                <Dates/>
+                    <Product>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                    </Product>
 
                 </div>
 

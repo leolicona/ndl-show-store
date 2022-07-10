@@ -1,0 +1,10 @@
+.cardsContainer {
+    border: 1px dotted green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    min-height: 100vh;
+}
