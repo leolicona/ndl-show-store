@@ -15,6 +15,7 @@ const Hero = () => {
                         por las calles del pueblo.
                         </p>
                         <button>¡Reserva ahora!</button>
+                        <p>Ver Tour Virtual</p>
                     </div>
                 </div>
             </div>
